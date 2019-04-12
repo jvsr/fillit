@@ -1,7 +1,7 @@
 # fillit
-A simple space optimisation algorithm.
+A simple space optimisation algorithm. A Codam School project
 
-Codam School project
+## Description
 
 Fillit is a project that makes you find the optimal solution among a huge set of possibilities.
 In this particular project, we have to create an algorithm which fits some Tetriminos together into the smallest possible square.
@@ -15,8 +15,9 @@ Every tetremino will be assigned a capital letter (starting with 'A') in the ord
 That is why a file will contain 26 tetreminos at max.
 If the file contains at least one error, the program must display error on the standard output and exits properly.
 
+## How to use ?
 Create the executable by typing `make`.
 
-`Usage: ./fillit [tetremino_file]`
+Usage: `./fillit [tetremino_file]`
 
-Some test files are included in the test directory.
+Some test files are included in the test directory. Or test by using `test.sh`.
